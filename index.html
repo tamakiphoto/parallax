@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PARALLAX IMAGE</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fullpage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <!--landscape-->
+  <div class="wrapper">
+    <p>ROTATE</p>
+    <img src="img/rotate.svg" alt="">
+    <p>YOUR DEVICE</p>
+      </div>
+    
+  <div id="fullpage" class="fullpage">
+    <div class="section">
+      <div class="top">
+        <div id="nav-toggle">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div id="nav-circle-bg"></div>
+        <nav id="nav">
+          <ul class="navmenu">
+            <li class="menulist"><a href="#firstPage">HOME</a></li>
+            <li class="menulist"><a href="#secondPage">2ND PAGE</a></li>
+            <li class="menulist"><a href="#thirdPage">3RD PAGE</a></li>
+            <li class="menulist"><a href="#endPage">4TH PAGE</a></li>
+            <li class="menulist"><a href="#noticePage">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="mask" id="mask"></div>
+        <div class="container">
+          <h1>PARALLAX</h1>
+          <p>is a web site trend where the background content is moved at a different speed than the
+            foreground content while scrolling. </p>
+
+        </div>
+        <a id="scrollbtn" href="#secondPage"><span></span>Scroll</a>
+      </div>
+
+    </div>
+    <div class="section">
+      <div class="second">
+        <div class="secleft">
+          <img src="img/green.jpg" alt="">
+        </div>
+        <div class="secright">
+          <div class="letter">
+            <p>PARALLAX</p>
+            <p class="small">PARALLAX</p>
+            <p class="small">PARALLAX</p>
+            <p class="Xsmall">The apparent displacement of an object as seen from two different points that are not on a
+              line with the object.</p>
+            <button class="green">Hang out ?</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="third">
+        <div class="thleft">
+          <div class="letter">
+            <p>PARALLAX</p>
+            <p class="small">PARALLAX</p>
+            <p class="small">PARALLAX</p>
+            <p class="Xsmall thXsmall">The apparent displacement of an object as seen from two different points that are
+              not on a line with the object.</p>
+            <button class="yellow">Why not ?</button>
+          </div>
+        </div>
+
+        <div class="thright">
+          <img src="img/yellow.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="end">
+        <div class="enleft">
+          <img src="img/blue.jpg" alt="">
+        </div>
+        <div class="enright">
+          <div class="letter">
+            <p>PARALLAX</p>
+            <p class="small">PARALLAX</p>
+            <p class="small">PARALLAX</p>
+            <p class="Xsmall">The apparent displacement of an object as seen from two different points that are not on a
+              line with the object.</p>
+
+            <button class="blue">Awesome !</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <!-- modal1 -->
+      <div id="modal" class="modal hidden">
+        <div class="modal_bg"></div>
+        <div class="modal_main">
+          <p id="close" class="close"><i class="fas fa-times"></i></p>
+          <h1>CONTACT FORM</h1>
+          <p>We'd love to hear from you.</p>
+          <form>
+            <input class="name" type="text" placeholder="First Name">
+            <input class="name" type="text" placeholder="Last Name">
+            <div class="modal_input">
+              <input class="name e-mail" type="text" placeholder="E-mail">
+              <input class="name" type="text" placeholder="Tel">
+            </div>
+            <textarea placeholder="Message" name="content" cols="55" rows="13"></textarea>
+          </form>
+          <div class="link_area">
+            <input class="modal_submit" type="submit" value="SUBMIT">
+          </div>
+        </div>
+      </div>
+      <!-- modal2 -->
+      <div id="modal02" class="modal hidden">
+        <div class="modal_bg02"></div>
+        <div class="modal_main02">
+          <div class="modal_main02_letter">
+            <h1>Welcome to our newsletter.</h1>
+            <h2>We are already friend !</h2>
+          </div>
+          <div class="animation">
+
+            <img src="img/party.jpg" alt="">
+
+          </div>
+          <div class="balloon-pa">
+            <div class="balloon">
+              <p>
+                Party tonight !!
+              </p>
+            </div>
+          </div>
+          <div class="balloon-pa">
+            <div class="balloon02">
+              <p>
+                Pom! Pom!!
+              </p>
+            </div>
+          </div>
+          <button id="close02" class="close">
+            Close
+          </button>
+
+        </div>
+      </div>
+      <!---->
+
+      <div class="notice">
+
+        <div class="noticeleft">
+          <div class="address">
+            <h1>CONTACT US<span>.</span></h1>
+            <p>○○○○○＠△△△</p>
+            <p>○-△-□ Tokyo, japan</p>
+            <p>111-222-3333</p>
+            <button id="open" class="open">Inquiry</button>
+
+          </div>
+        </div>
+
+        <div class="noticeright">
+          <div class="noticeright_wrap">
+            <p>Sign up for our newsletter and stay up <br>to date with new products,<br> receive special offers or learn
+              something new.</p>
+            <input type="text" placeholder="E-mail"><button id="submit" class="open"><img class="highfive"
+                src="img/highfive.png" alt=""></button>
+            <h1>Let<span>'</span>s Keep In Touch !</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="noticedown">
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-tumblr-square"></i>
+        <i class="fab fa-pinterest-square"></i>
+        <i class="fab fa-facebook-square"></i>
+        <div class="copyright">Copyright © 2020 〇〇 Inc. All Rights Reserved<span>.</span></div>
+      </div>
+
+    </div>
+
+</div>
+    <script>
+      $(function () {
+        $('#fullpage').fullpage({
+          anchors: ['firstPage', 'secondPage', 'thirdPage', 'endPage', 'noticePage'],
+          scrollingSpeed: 1200,
+          navigation: true,
+          navigationPosition: 'left',
+          scrollBar: true,
+        });
+      });
+    </script>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
