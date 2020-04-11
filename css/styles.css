@@ -1430,6 +1430,10 @@ form textarea{
     height: 45vh;
     top: 9rem;
   }
+  
+  .noticeright h1 {
+    letter-spacing: -.3rem;
+  }
 
   .noticeright_wrap {
     width: 100vw;
@@ -1546,7 +1550,6 @@ Small phone
   .noticeright h1 {
     font-size: 4.6rem;
     margin-top: 1.5rem;
-    letter-spacing: -.2rem;
   }
 
   .modal_main {
