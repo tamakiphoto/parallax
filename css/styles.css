@@ -1549,6 +1549,7 @@ Small phone
   .noticeright h1 {
     font-size: 4.6rem;
     margin-top: 1.5rem;
+    letter-spacing: -.2rem;
   }
 
   .modal_main {
