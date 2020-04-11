@@ -890,6 +890,7 @@ button {
   margin-left: 5rem;
   padding: 2rem 6.5rem;
   text-align: center;
+  background-color: rgb(233, 231, 231);
 }
 
 #open:hover {
