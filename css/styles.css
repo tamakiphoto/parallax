@@ -776,6 +776,7 @@ h1>span {
   width: 8.5vw;
   padding: 0px;
   outline: none;
+  background-color: rgb(233, 231, 231);
 }
 
 #submit:hover {
@@ -897,10 +898,6 @@ button {
   background-color: rgb(189, 186, 186);
   letter-spacing: 1px;
   outline: none;
-}
-
-#submit{
-  background-color: rgb(233, 231, 231);
 }
 
 /*////////////////////////////////////////////*/
