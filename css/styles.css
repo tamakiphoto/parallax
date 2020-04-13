@@ -1033,6 +1033,7 @@ input:hover {
 }
 
 .modal_submit {
+  -webkit-appearance: none;
   background-color: #9cd5c4;
   font-family: 'Josefin Sans', sans-serif;
   width: 30vw;
