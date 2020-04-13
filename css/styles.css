@@ -680,6 +680,11 @@ NOTICE
   -webkit-transition: all 1.1s ease-in-out 0.3s;
 }
 
+.address a{
+  color:#fff;
+  text-decoration:none;
+}
+
 .address h1 {
   padding-left: 0.1em;
   color: #fff;
