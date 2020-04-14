@@ -752,13 +752,14 @@ h1>span {
   vertical-align: baseline;
   outline: none;
   margin-top: 20px;
+  font-size:16px;
 }
 
 .noticeright input[type='text'] {
   padding-left: 10px;
   width: calc(100% - 30rem);
   height: 9.2vh;
-  font-size: 1.7rem;
+  font-size:16px;
    -webkit-appearance:none;
 }
 
@@ -1005,7 +1006,7 @@ form input {
   background-color: rgb(252, 103, 108);
   border: none;
   color: #fff;
-  font-size: 1.6rem;
+  font-size:16px;
   outline: none;
   width: 26vw;
   -webkit-appearance:none;
@@ -1019,7 +1020,7 @@ form textarea {
   border-radius: 0.6rem;
   padding-left: 0.5rem;
   padding-top: 1rem;
-  font-size: 1.6rem;
+  font-size:16px;
   font-family: 'Josefin Sans', sans-serif;
   background-color: rgb(252, 103, 108);
   border: none;
