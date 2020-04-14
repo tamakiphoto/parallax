@@ -14,7 +14,6 @@ body {
   box-sizing: border-box;
   height: 100vh;
   font-size: 1.6em;
-  -webkit-appearance:none;
 }
 .fixed{
   position: fixed;
@@ -761,6 +760,7 @@ h1>span {
   width: calc(100% - 30rem);
   height: 9.2vh;
   font-size: 1.7rem;
+   -webkit-appearance:none;
 }
 
 .noticeright input[type='text']:hover {
