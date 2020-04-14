@@ -1388,55 +1388,55 @@ form textarea{
 
   .fp-viewing-secondPage .secleft,
   .secright {
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 50%;
   }
 
   .fp-viewing-secondPage .secleft img,
   .fp-viewing-thirdPage .thright img,
   .fp-viewing-endPage .enleft img {
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 50%;
   }
 
   .fp-viewing-thirdPage .thright,
   .thleft {
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 50%;
   }
 
   .fp-viewing-endPage .enleft,
   .enright {
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 50%;
   }
 
   .notice {
-    height: 88vh;
+    height: 88%;
   }
 
   .noticeleft,
   .noticeright {
-    width: 100vw;
-    height: 44vh;
+    width: 100%;
+    height: 44%;
   }
 
   .noticedown {
-    width: 100vw;
-    height: 12vh;
+    width: 100%;
+    height: 12%;
     font-size: 4rem;
     padding-top: 9px;
   }
 
   .letter {
-    width: 60vw;
-    height: 45vh;
+    width: 60%;
+    height: 45%;
     top: 5%;
   }
 
   .address {
-    width: 80vw;
-    height: 45vh;
+    width: 80%;
+    height: 45%;
     top: 9rem;
   }
   
@@ -1445,8 +1445,8 @@ form textarea{
   }
 
   .noticeright_wrap {
-    width: 100vw;
-    height: 45vh;
+    width: 100%;
+    height: 45%;
     top: 20px;
   }
 
@@ -1541,13 +1541,13 @@ Small phone
 
   .letter {
     width: 70vw;
-    height: 50vh;
+    height: 50%;
     top: 4%;
   }
 
   .address {
-    width: 100vw;
-    height: 45vh;
+    width: 100%;
+    height: 45%;
     top: 9rem;
   }
 
