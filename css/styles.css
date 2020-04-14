@@ -464,7 +464,7 @@ SECONDPAGE
 }
 
 .fp-viewing-secondPage .secleft>img {
-  width: 50%;
+  width: 100%;
   height: 100%;
   opacity: 0.8;
 }
@@ -576,7 +576,7 @@ THIRDPAGE
 }
 
 .fp-viewing-thirdPage .thright>img {
-  width: 50%;
+  width: 100%;
   height: 100%;
   opacity: 0.7;
 }
@@ -635,7 +635,7 @@ ENDPAGE
 }
 
 .fp-viewing-endPage .enleft>img {
-  width: 50%;
+  width: 100%;
   height: 100%;
   opacity: 0.7;
 }
@@ -649,8 +649,8 @@ NOTICE
 ////////////////////////////////////////////
 */
 .notice {
-  width: 100vw;
-  height: 80vh;
+  width: 100%;
+  height: 80%;
   background: #424242;
   display: flex;
   justify-content: space-between;
@@ -658,8 +658,8 @@ NOTICE
 
 .noticeleft {
   position: relative;
-  width: 50vw;
-  height: 80vh;
+  width:50%;
+  height: 80%;
   background-color: #424242;
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
@@ -717,8 +717,8 @@ h1>span {
 .noticeright {
   position: relative;
   background-color: #424242;
-  width: 50vw;
-  height: 80vh;
+  width: 50%;
+  height: 80%;
   font-family: 'Josefin Sans', sans-serif;
   color: #eee;
   text-align: center;
@@ -729,7 +729,6 @@ h1>span {
   width: 45vw;
   height: 60vh;
   position: absolute;
-  top: 0;
   left: 0;
   right: -1500px;
   bottom: 0;
@@ -758,7 +757,6 @@ h1>span {
 .noticeright input[type='text'] {
   padding-left: 10px;
   width: calc(100% - 30rem);
-  height: 9.2vh;
   font-size:16px;
    -webkit-appearance:none;
 }
@@ -778,8 +776,8 @@ h1>span {
   position: relative;
   vertical-align: bottom;
   border-radius: 0 5px 5px 0;
-  height: 9.5vh;
   width: 8.5vw;
+  height: 15.6%;
   padding: 0px;
   outline: none;
   background-color: rgb(233, 231, 231);
@@ -802,7 +800,7 @@ h1>span {
 }
 
 .noticedown {
-  height: 20vh;
+  height: 20%;
   background-color: #4e4e4e;
   font-size: 5.5rem;
   color: #fff;
@@ -1418,7 +1416,7 @@ form textarea{
   .noticeleft,
   .noticeright {
     width: 100%;
-    height: 44%;
+    height: 50%;
   }
 
   .noticedown {
@@ -1431,12 +1429,11 @@ form textarea{
   .letter {
    width: 100%;
     height: 100%;
-    top: 20%;
+    top: 10%;
   }
 
   .address {
     width: 80%;
-    height: 45%;
     top: 9rem;
   }
   
@@ -1446,7 +1443,6 @@ form textarea{
 
   .noticeright_wrap {
     width: 100%;
-    height: 45%;
     top: 20px;
   }
 
@@ -1491,7 +1487,13 @@ form textarea{
     height: 6.5vh;
     margin-top: 3rem;
   }
+  .modal_main h1 {
+    font-size: 3rem;
+  }
 
+  .animation img {
+    top:20%;
+  }
   .balloon-pa {
     width: 78vw;
   }
@@ -1540,14 +1542,11 @@ Small phone
   }
 
   .letter {
-    width: 70vw;
-    height: 50%;
     top: 4%;
   }
 
   .address {
     width: 100%;
-    height: 45%;
     top: 9rem;
   }
 
