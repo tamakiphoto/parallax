@@ -6,7 +6,7 @@
 }
 
 html {
-  height: 100vh;
+  height: 100%;
   font-size: 62.5%;
 }
 
@@ -630,13 +630,13 @@ ENDPAGE
 /*-------------marble animation-------------*/
 .fp-viewing-endPage .enleft {
   opacity: 0.9;
-  width: 50vw;
+  width: 50%;
   height: 100vh;
 }
 
 .fp-viewing-endPage .enleft>img {
-  width: 50vw;
-  height: 100vh;
+  width: 50%;
+  height: 100%;
   opacity: 0.7;
 }
 
@@ -942,8 +942,8 @@ MODAL WINDOW
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
   position: absolute;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .modal_main {
@@ -953,8 +953,8 @@ MODAL WINDOW
   left: 0;
   right: 0;
   margin: auto;
-  width: 60vw;
-  height: 82vh;
+  width: 60%;
+  height: 82%;
   background-color: #b11f24;
   padding: 2.5rem 6rem 6rem;
   border-radius: 1.8rem;
@@ -984,8 +984,8 @@ MODAL WINDOW
 }
 
 .modal_bg {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -1073,8 +1073,8 @@ input:hover {
 
 /*modal02*/
 .modal_bg02 {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -1086,8 +1086,8 @@ input:hover {
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
   position: absolute;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .modal_main02 {
@@ -1097,8 +1097,8 @@ input:hover {
   left: 0;
   right: 0;
   margin: auto;
-  width: 60vw;
-  height: 75vh;
+  width: 60%;
+  height: 75%;
   background-color: #188315;
   padding: 2.5rem 6rem 6rem;
   border-radius: 1.8rem;
