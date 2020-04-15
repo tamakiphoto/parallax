@@ -1,4 +1,5 @@
 @charset 'UTF-8';
+
 * {
   margin: 0;
   padding: 0;
@@ -15,27 +16,29 @@ body {
   height: 100%;
   font-size: 1.6em;
 }
-.fixed{
+
+.fixed {
   position: fixed;
   width: 100%;
   height: 100%;
   left: 0;
 }
+
 /*landscape*/
-.wrapper{
+.wrapper {
   top: 0;
   left: 0;
   width: 100%;
-  height:100%;
-  background:center center / cover no-repeat url(../img/pink02.jpg);
+  height: 100%;
+  background: center center / cover no-repeat url(../img/pink02.jpg);
   display: flex;
   justify-content: center;
   flex-direction: column;
   opacity: 0;
-  transition: all .3s ease-in-out ;
+  transition: all .3s ease-in-out;
 }
 
-.wrapper > img{
+.wrapper>img {
   margin: 0 auto;
   width: 23%;
   animation-name: device;
@@ -56,7 +59,7 @@ body {
   }
 }
 
-.wrapper p{
+.wrapper p {
   display: block;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
@@ -64,10 +67,11 @@ body {
   font-size: 5rem;
 }
 
-.wrapper p:first-child{
+.wrapper p:first-child {
   margin-bottom: 1rem;
 }
-.wrapper p:nth-child(3){
+
+.wrapper p:nth-child(3) {
   margin-top: 2.5rem;
 }
 
@@ -363,18 +367,18 @@ SCROLL BUTTON
 */
 #scrollbtn {
   padding-top: 80px;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    display: inline-block;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-    overflow: visible !important;
-    padding-left: 30px;
-    margin-left: -30px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  overflow: visible !important;
+  padding-left: 30px;
+  margin-left: -30px;
 }
 
 #scrollbtn span {
@@ -479,13 +483,13 @@ SECONDPAGE
 
 .letter {
   position: absolute;
-  width: 30vw;
-  height: 60vh;
+  width: 70%;
+  height: 100%;
   font-family: 'Bowlby One SC', cursive;
   font-size: 4rem;
   letter-spacing: 0.1em;
   text-align: center;
-  top: -70px;
+  top: 10%;
   left: 0;
   right: 0;
   bottom: 0;
@@ -658,8 +662,8 @@ NOTICE
 
 .noticeleft {
   position: relative;
-  width:50%;
-  height: 80%;
+  width: 50%;
+  height: 100%;
   background-color: #424242;
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
@@ -671,17 +675,17 @@ NOTICE
   left: -1000px;
   right: 0;
   bottom: 0;
-  width: 37vw;
-  height: 56vh;
+  width: 89%;
+  height: 65%;
   font-size: 2rem;
   margin: auto;
   opacity: 0;
   transition: all 1.1s ease-in-out 0.3s;
 }
 
-.address a{
-  color:#fff;
-  text-decoration:none;
+.address a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .address h1 {
@@ -718,7 +722,7 @@ h1>span {
   position: relative;
   background-color: #424242;
   width: 50%;
-  height: 80%;
+  height: 100%;
   font-family: 'Josefin Sans', sans-serif;
   color: #eee;
   text-align: center;
@@ -726,8 +730,8 @@ h1>span {
 }
 
 .noticeright_wrap {
-  width: 45vw;
-  height: 60vh;
+  width: 100%;
+  height: 80%;
   position: absolute;
   left: 0;
   right: -1500px;
@@ -751,14 +755,15 @@ h1>span {
   vertical-align: baseline;
   outline: none;
   margin-top: 20px;
-  font-size:16px;
+  font-size: 16px;
 }
 
 .noticeright input[type='text'] {
   padding-left: 10px;
   width: calc(100% - 30rem);
-  font-size:16px;
-   -webkit-appearance:none;
+  height: 15.1%;
+  font-size: 16px;
+  -webkit-appearance: none;
 }
 
 .noticeright input[type='text']:hover {
@@ -776,7 +781,7 @@ h1>span {
   position: relative;
   vertical-align: bottom;
   border-radius: 0 5px 5px 0;
-  width: 8.5vw;
+  width: 17%;
   height: 15.6%;
   padding: 0px;
   outline: none;
@@ -851,13 +856,13 @@ button {
   margin-top: 40rem;
   opacity: 0;
   transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out ;
+  -webkit-transition: all .3s ease-in-out;
 }
 
 .green:hover {
   background-color: rgba(0, 144, 142, 1);
   letter-spacing: 1px;
-  border: rgba(249,224,147,0.8) 7px double;
+  border: rgba(249, 224, 147, 0.8) 7px double;
 }
 
 .yellow {
@@ -866,13 +871,13 @@ button {
   margin-top: 40rem;
   opacity: 0;
   transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out ;
+  -webkit-transition: all .3s ease-in-out;
 }
 
 .yellow:hover {
   background-color: rgb(20, 197, 241, 1);
   letter-spacing: 1px;
-  border: rgba(65,48,104,0.8) 4px dashed;
+  border: rgba(65, 48, 104, 0.8) 4px dashed;
 }
 
 .blue {
@@ -881,13 +886,13 @@ button {
   margin-top: 40rem;
   opacity: 0;
   transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out ;
+  -webkit-transition: all .3s ease-in-out;
 }
 
 .blue:hover {
   background-color: rgba(22, 37, 89, 1);
   letter-spacing: 1px;
-  border: rgba(243,137,111,0.8) 4px solid;
+  border: rgba(243, 137, 111, 0.8) 4px solid;
 }
 
 #open {
@@ -951,10 +956,10 @@ MODAL WINDOW
   left: 0;
   right: 0;
   margin: auto;
-  width: 60%;
-  height: 82%;
+  width: 70%;
+  height: 85%;
   background-color: #b11f24;
-  padding: 2.5rem 6rem 6rem;
+  padding: 1.5rem 0;
   border-radius: 1.8rem;
   z-index: 100;
   text-align: center;
@@ -1004,10 +1009,10 @@ form input {
   background-color: rgb(252, 103, 108);
   border: none;
   color: #fff;
-  font-size:16px;
+  font-size: 16px;
   outline: none;
-  width: 26vw;
-  -webkit-appearance:none;
+  width: 37%;
+  -webkit-appearance: none;
 }
 
 input[value="SUBMIT"] {
@@ -1018,14 +1023,14 @@ form textarea {
   border-radius: 0.6rem;
   padding-left: 0.5rem;
   padding-top: 1rem;
-  font-size:16px;
+  font-size: 16px;
   font-family: 'Josefin Sans', sans-serif;
   background-color: rgb(252, 103, 108);
   border: none;
   color: #fff;
-  width: 53vw;
+  width: 75%;
   outline: none;
-  -webkit-appearance:none;
+  -webkit-appearance: none;
 }
 
 .modal_main>form textarea:hover,
@@ -1042,8 +1047,8 @@ input:hover {
   -webkit-appearance: none;
   background-color: #9cd5c4;
   font-family: 'Josefin Sans', sans-serif;
-  width: 30vw;
-  height: 9vh;
+  width: 30%;
+  height: 5rem;
   border-radius: 0.6rem;
   text-align: center;
   color: #424242;
@@ -1095,25 +1100,24 @@ input:hover {
   left: 0;
   right: 0;
   margin: auto;
-  width: 60%;
-  height: 75%;
+  width: 65%;
+  height: 85%;
   background-color: #188315;
-  padding: 2.5rem 6rem 6rem;
+  padding: 1.5rem 0;
   border-radius: 1.8rem;
   text-align: center;
-  z-index: 2;
+  z-index: 100;
   overflow: visible;
 }
 
 .modal_main02 h1 {
-  padding: 1rem 0;
+  padding-top: 2%;
   font-size: 4rem;
 
 }
 
 .animation img {
   width: 55%;
-  min-width: 55%;
   height: auto;
   position: absolute;
   top: 0;
@@ -1138,6 +1142,7 @@ input:hover {
     transform: translate(-10px, 0);
   }
 }
+
 @keyframes animate02 {
   0% {
     transform: translate(0, 0px);
@@ -1154,8 +1159,7 @@ input:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 67.7vw;
-  height: 88vh;
+  width: 98%;
   text-align: center;
   z-index: 2;
   overflow: visible;
@@ -1173,12 +1177,12 @@ input:hover {
   background-color: #31664a;
   margin-right: auto;
   overflow: visible;
-  top: 16rem;
-  left: 1rem;
+  top: 25%;
+  left: 10%;
 }
 
 .balloon p,
-.balloon02 p{
+.balloon02 p {
   padding-top: 20px;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -1213,7 +1217,8 @@ input:hover {
   margin-left: auto;
   background-color: #31664a;
   overflow: visible;
-  bottom: -30rem;
+  bottom: -50%;
+  right: 5%;
 }
 
 .balloon02::after {
@@ -1254,53 +1259,52 @@ input:hover {
 
 @media(max-width: 1024px) {
 
-  .navmenu{
+  .navmenu {
     margin-top: -25rem;
   }
+
   #nav-circle-bg {
     width: 18em;
     height: 18em;
   }
+
   .open #nav .menulist {
     transform: translateX(-10em);
   }
-  .modal_main02_letter {
-    margin-top: 5rem;
-  }
 
   .notice {
-    height: 88vh;
+    height: 88%;
     display: block;
   }
 
   .noticeleft {
-    width: 100vw;
-    height: 44vh;
+    width: 100%;
+    height: 50%;
   }
 
   .noticeright {
-    width: 100vw;
-    height: 44vh;
+    width: 100%;
+    height: 50%;
   }
 
   .noticeright input[type='text'] {
-    width: calc(100% - 21rem);
-    height: 7vh;
+    width: calc(100% - 45rem);
+    height: 17.5%;
   }
 
   #submit {
-    height: 7.3vh;
-    width: 16vw;
+    height: 18.4%;
+    width: 12%;
   }
 
   .noticedown {
-    width: 100vw;
-    height: 12vh;
+    width: 100%;
+    height: 12%;
   }
 
   .address {
-    width: 80vw;
-    height: 43vh;
+    width: 70%;
+    height: 100%;
   }
 
   .address>h1 {
@@ -1308,35 +1312,32 @@ input:hover {
   }
 
   .noticeright_wrap {
-    width: 80vw;
-    height: 40vh;
+    width: 100%;
+    height: 100%;
   }
-form textarea{
-  height: 50vh;
-}
+
+  .modal_main h1 {
+    padding-top: 5.5rem;
+  }
 
   .modal_main02 {
-    height: 70vh;
+    width: 95%;
   }
 
-  .modal_main02 h1 {
-    font-size: 3rem;
+  form textarea {
+    height: 67rem;
   }
 
   .modal_main02_letter {
-    margin-top: 3rem;
+    margin-top: 6rem;
   }
 
-  .balloon-pa {
-    width: 71.5vw;
+  .modal_submit {
+    height: 8rem;
   }
+
 }
 
-/*
-////////////////////////////////////////////
-横向きタブレット
-////////////////////////////////////////////
-*/
 @media(max-width: 959px) {
 
 
@@ -1427,7 +1428,7 @@ form textarea{
   }
 
   .letter {
-   width: 100%;
+    width: 80%;
     height: 100%;
     top: 10%;
   }
@@ -1436,7 +1437,7 @@ form textarea{
     width: 80%;
     top: 9rem;
   }
-  
+
   .noticeright h1 {
     letter-spacing: -.3rem;
   }
@@ -1449,6 +1450,13 @@ form textarea{
   #submit:hover:after {
     right: 1rem;
   }
+
+  .noticeright input[type='text'] {
+    width: calc(100% - 150px);
+  }
+  #submit {
+    width: 18%;
+}
 
   button {
     padding: 20px 40px;
@@ -1463,12 +1471,9 @@ form textarea{
 モーダル
 //////////////////////
 */
-  form {
-    width: 69vw;
-  }
 
   .modal_main {
-    width: 70vw;
+    width: 90%;
   }
 
   .name {
@@ -1478,8 +1483,8 @@ form textarea{
   }
 
   form textarea {
-    width: 55vw;
-    height: 30vh;
+    width: 61%;
+    height: 23rem;
   }
 
   .modal_submit {
@@ -1487,25 +1492,14 @@ form textarea{
     height: 6.5vh;
     margin-top: 3rem;
   }
+
   .modal_main h1 {
     font-size: 3rem;
-  }
-
-  .animation img {
-    top:20%;
-  }
-  .balloon-pa {
-    width: 78vw;
-  }
-
-  .balloon {
-    top: 17.5rem;
+    padding-top: 2rem;
   }
 
   .balloon02 {
-    bottom: -17rem;
-    width: 6rem;
-    height: 6rem;
+    top: 25%;
   }
 
   .balloon02::after {
@@ -1561,26 +1555,31 @@ Small phone
   }
 
   .modal_main {
-    height: 85vh;
+    height: 90%;
   }
 
   .modal_submit {
     margin-top: 0.5rem;
   }
-  .modal_main02_letter{
+
+  .modal_main02_letter {
     margin-top: 2rem;
   }
-  h2{
+
+  h2 {
     font-size: 15px;
   }
+
   .balloon,
-  .balloon02{
+  .balloon02 {
     width: 5rem;
     height: 5rem;
     font-size: 9px;
   }
-  .balloon::after{
+
+  .balloon::after {
     left: 8rem;
     top: 5.5rem;
   }
+
 }
