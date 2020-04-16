@@ -1513,6 +1513,9 @@ input:hover {
     font-size: 3rem;
     padding-top: 0;
   }
+   .modal_main {
+    height: 95%;
+  }
   
   .modal_main02 h1 {
     font-size: 3rem;
@@ -1576,10 +1579,6 @@ Small phone
   .noticeright h1 {
     font-size: 4.6rem;
     margin-top: 1.5rem;
-  }
-
-  .modal_main {
-    height: 95%;
   }
 
   .modal_main p {
