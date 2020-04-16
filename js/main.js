@@ -21,23 +21,6 @@ for (let i = 0; i < 2; i++) {
    });
 }
 
-//モーダル時、スクロール禁止
-$(function () {
-   var scrollPosition;
-   $('.open').on('click', function () {
-      scrollPosition = $(window).scrollTop();
-      $('body').addClass('fixed').css({
-         top: -scrollPosition
-      });
-   });
-   $('.close').on('click', function () {
-      $('body').removeClass('fixed').css({
-         top: 0
-      });
-      window.scrollTo(0, scrollPosition);
-   });
-});
-
 //横向き
 $(window).on('load orientationchange resize', function () {
    if (Math.abs(window.orientation) === 90) {
