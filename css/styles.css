@@ -109,7 +109,7 @@ body {
   right: -50rem;
   display: flex;
   align-items: center;
-  z-index: 115;
+  z-index: 110;
   overflow: visible !important;
 }
 
@@ -668,7 +668,7 @@ NOTICE
   background-color: #424242;
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
-  z-index:110;
+  z-index:105;
 }
 
 .address {
@@ -729,7 +729,7 @@ h1>span {
   color: #eee;
   text-align: center;
   font-size: 2rem;
-  z-index:110;
+  z-index:105;
 }
 
 .noticeright_wrap {
@@ -1520,6 +1520,14 @@ input:hover {
     font-size: 3rem;
     padding-top: 2rem;
   }
+  .modal_main02 h1 {
+    font-size: 2.7rem;
+  }
+
+  .modal_main02_letter {
+    margin-top: 0;
+  }
+
 
   .balloon02 {
     top: 25%;
@@ -1588,14 +1596,7 @@ Small phone
     margin-top: 0.5rem;
   }
 
- .modal_main02 h1 {
-    font-size: 2.7rem;
-  }
-
-  .modal_main02_letter {
-    margin-top: 0;
-  }
-
+ 
   h2 {
     font-size: 15px;
   }
