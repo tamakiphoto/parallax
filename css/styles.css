@@ -272,7 +272,6 @@ TOPPAGE
   background-image: url(../img/paint.jpg);
   background-size: cover;
   font-family: 'Bowlby One SC', cursive;
-  z-index:110;
 }
 
 .container {
@@ -661,7 +660,6 @@ NOTICE
   background-color: #424242;
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
-  z-index:105;
 }
 
 .address {
@@ -722,7 +720,6 @@ h1>span {
   color: #eee;
   text-align: center;
   font-size: 2rem;
-  z-index:105;
 }
 
 .noticeright_wrap {
