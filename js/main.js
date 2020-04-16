@@ -2,6 +2,13 @@
 $(function () {
    $('#nav-toggle').on('click', function () {
       $('body').toggleClass('open');
+      if ($('body').hasClass('open')) {
+         fullpage_api.setAllowScrolling(false);
+         fullpage_api.setKeyboardScrolling(false);
+      } else {
+         fullpage_api.setAllowScrolling(true);
+         fullpage_api.setKeyboardScrolling(true);
+      }
    });
 });
 
