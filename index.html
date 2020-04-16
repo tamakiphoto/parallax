@@ -176,7 +176,7 @@
             <p>○○○○○＠△△△</p>
             <p>○-△-□ Tokyo, japan</p>
             <p>111-222-3333</p>
-            <button id="open" class="open">Inquiry</button>
+            <button id="open" class="popup">Inquiry</button>
 
           </div>
         </div>
@@ -185,7 +185,7 @@
           <div class="noticeright_wrap">
             <p>Sign up for our newsletter and stay up <br>to date with new products,<br> receive special offers or learn
               something new.</p>
-            <input type="text" placeholder="E-mail"><button id="submit" class="open"><img class="highfive"
+            <input type="text" placeholder="E-mail"><button id="submit" class="popup"><img class="highfive"
                 src="img/highfive.png" alt=""></button>
             <h1>Let<span>'</span>s Keep In Touch !</h1>
           </div>
@@ -214,7 +214,7 @@
         });
       });
        //adding the actions to the buttons
-$(document).on('click', '.open', function() {
+$(document).on('click', '.popup', function() {
      $.fn.fullpage.setAllowScrolling(false);
      $.fn.fullpage.setKeyboardScrolling(false);
 });
