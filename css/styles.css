@@ -109,7 +109,7 @@ body {
   right: -50rem;
   display: flex;
   align-items: center;
-  z-index: 100;
+  z-index: 115;
   overflow: visible !important;
 }
 
