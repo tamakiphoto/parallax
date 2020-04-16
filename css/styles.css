@@ -965,6 +965,17 @@ MODAL WINDOW
   text-align: center;
 }
 
+.modal01-wrapper {
+  width: 95%;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 .modal_main h1 {
   font-size: 4rem;
   padding-top: 0.5rem;
@@ -1048,7 +1059,7 @@ input:hover {
   background-color: #9cd5c4;
   font-family: 'Josefin Sans', sans-serif;
   width: 30%;
-  height: 5rem;
+  height: 6rem;
   border-radius: 0.6rem;
   text-align: center;
   color: #424242;
@@ -1316,28 +1327,23 @@ input:hover {
     height: 100%;
   }
 
-  .modal_main h1 {
-    padding-top: 5.5rem;
-  }
-
   .modal_main02 {
     width: 95%;
   }
 
-  form textarea {
-    height: 67rem;
-  }
 
   .modal_main02_letter {
     margin-top: 6rem;
   }
 
-  .modal_submit {
-    height: 8rem;
-  }
 
 }
 
+/*
+////////////////////////////////////////////
+横向きタブレット
+////////////////////////////////////////////
+*/
 @media(max-width: 959px) {
 
 
@@ -1351,6 +1357,10 @@ input:hover {
 
   .container p {
     padding: 0 30px
+  }
+
+  .modal_main h1 {
+    padding-top: 1.5rem;
   }
 
 
@@ -1435,7 +1445,6 @@ input:hover {
 
   .address {
     width: 80%;
-    top: 9rem;
   }
 
   .noticeright h1 {
@@ -1454,12 +1463,19 @@ input:hover {
   .noticeright input[type='text'] {
     width: calc(100% - 150px);
   }
+
   #submit {
     width: 18%;
-}
+  }
 
   button {
     padding: 20px 40px;
+  }
+
+  .fp-viewing-secondPage .green,
+  .fp-viewing-thirdPage .yellow,
+  .fp-viewing-endPage .blue {
+    margin-top: 1.5rem;
   }
 
   form {
@@ -1479,18 +1495,22 @@ input:hover {
   .name {
     display: block;
     width: 55vw;
-    margin: 1rem auto;
+    margin: 1rem auto 0;
   }
 
   form textarea {
-    width: 61%;
+    margin-top: 1rem;
+    width: 64%;
     height: 23rem;
   }
 
   .modal_submit {
-    width: 50vw;
-    height: 6.5vh;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    width: 64%;
+  }
+
+  .modal_main p {
+    padding: 5px 0 0;
   }
 
   .modal_main h1 {
@@ -1541,7 +1561,6 @@ Small phone
 
   .address {
     width: 100%;
-    top: 9rem;
   }
 
   .address>h1 {
@@ -1555,7 +1574,11 @@ Small phone
   }
 
   .modal_main {
-    height: 90%;
+    height: 95%;
+  }
+
+  .modal_main p {
+    padding: 5px 0 0;
   }
 
   .modal_submit {
@@ -1563,7 +1586,7 @@ Small phone
   }
 
   .modal_main02_letter {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   h2 {
@@ -1581,5 +1604,4 @@ Small phone
     left: 8rem;
     top: 5.5rem;
   }
-
 }
