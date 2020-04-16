@@ -1515,20 +1515,20 @@ input:hover {
   .modal_main p {
     padding: 5px 0 0;
   }
-
-  .modal_main h1 {
+  
+ .modal_main h1 {
     font-size: 3rem;
-    padding-top: 2rem;
+    padding-top: 0;
   }
+  
   .modal_main02 h1 {
     font-size: 3rem;
-    letter-spacing:.2rem;
+    letter-spacing:-.1rem;
   }
 
   .modal_main02_letter {
     margin-top: 0;
   }
-
 
   .balloon02 {
     top: 25%;
