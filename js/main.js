@@ -7,11 +7,11 @@ $(function () {
 
 //モーダル
 const close = document.querySelectorAll('.close');
-const open = document.querySelectorAll('.open');
+const popup = document.querySelectorAll('.popup');
 const modal = document.querySelectorAll('.modal');
 
 for (let i = 0; i < 2; i++) {
-   open[i].addEventListener('click', () => {
+   popup[i].addEventListener('click', () => {
       modal[i].classList.remove('hidden');
    });
 }
