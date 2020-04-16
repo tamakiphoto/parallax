@@ -17,6 +17,12 @@ body {
   font-size: 1.6em;
 }
 
+/*navigation dots*/
+.fp-viewing-firstPage #fp-nav,
+.fp-viewing-noticePage #fp-nav{
+  display: none;
+}
+
 /*landscape*/
 .wrapper {
   top: 0;
