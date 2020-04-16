@@ -279,6 +279,7 @@ TOPPAGE
   background-image: url(../img/paint.jpg);
   background-size: cover;
   font-family: 'Bowlby One SC', cursive;
+  z-index:110;
 }
 
 .container {
@@ -667,6 +668,7 @@ NOTICE
   background-color: #424242;
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
+  z-index:110;
 }
 
 .address {
@@ -727,6 +729,7 @@ h1>span {
   color: #eee;
   text-align: center;
   font-size: 2rem;
+  z-index:110;
 }
 
 .noticeright_wrap {
@@ -961,7 +964,7 @@ MODAL WINDOW
   background-color: #b11f24;
   padding: 1.5rem 0;
   border-radius: 1.8rem;
-  z-index: 100;
+  z-index: 120;
   text-align: center;
 }
 
@@ -1117,7 +1120,7 @@ input:hover {
   padding: 1.5rem 0;
   border-radius: 1.8rem;
   text-align: center;
-  z-index: 100;
+  z-index: 120;
   overflow: visible;
 }
 
