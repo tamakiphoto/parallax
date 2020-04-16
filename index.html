@@ -213,6 +213,16 @@
           scrollBar: true,
         });
       });
+       //adding the actions to the buttons
+$(document).on('click', '.open', function() {
+     $.fn.fullpage.setAllowScrolling(false);
+     $.fn.fullpage.setKeyboardScrolling(false);
+});
+
+$(document).on('click', '.close', function() {
+     $.fn.fullpage.setAllowScrolling(true);
+     $.fn.fullpage.setKeyboardScrolling(true);
+});
     </script>
     <script src="js/fullpage.min.js"></script>
     <script src="js/main.js"></script>
