@@ -35,11 +35,15 @@ $(window).on('load orientationchange resize', function () {
       $('.fullpage').css('display', 'none');
       $('.wrapper').css({
          'display': 'flex',
-         'opacity':'0.8'
-   });
+         'opacity': '0.8'
+      });
+      fullpage_api.setAllowScrolling(false);
+      fullpage_api.setKeyboardScrolling(false);
    } else {
       // 縦向きになったときの処理
       $('.fullpage').css('display', 'block');
       $('.wrapper').css('display', 'none');
+      fullpage_api.setAllowScrolling(true);
+      fullpage_api.setKeyboardScrolling(true);
    }
 });
