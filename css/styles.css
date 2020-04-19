@@ -1537,6 +1537,10 @@ input:hover {
     transform: rotate(-30deg);
     top: 50px;
   }
+  
+  .wrapper p {
+    font-size: 3rem;
+  }
 
   /*
 //////////////////////
