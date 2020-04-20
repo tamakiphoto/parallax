@@ -1388,21 +1388,30 @@ input:hover {
   .fp-viewing-secondPage .secleft,
   .secright {
     width: 100%;
-    height: 50%;
+    height: 40%;
+  }
+  fp-viewing-secondPage .secright {
+    width: 100%;
+    height: 60%;
   }
 
   .fp-viewing-secondPage .secleft img,
   .fp-viewing-thirdPage .thright img,
   .fp-viewing-endPage .enleft img {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
   }
 
-  .fp-viewing-thirdPage .thright,
-  .thleft {
+  .fp-viewing-thirdPage .thright
     width: 100%;
-    height: 50%;
+    height: 40%;
   }
+  
+  .fp-viewing-thirdPage .thleft {
+    width: 100%;
+    height: 60%;
+  }
+
 
   .fp-viewing-endPage .enleft,
   .enright {
