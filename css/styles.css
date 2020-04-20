@@ -307,7 +307,7 @@ TOPPAGE
 }
 
 .container>p {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   text-align: center;
   letter-spacing: 0.1em;
   color: #252525;
@@ -1387,48 +1387,48 @@ input:hover {
   .fp-viewing-secondPage .secleft,
   .secright {
     width: 100%;
-    height: 50%;
+    height: 50vh;
   }
 
   .fp-viewing-secondPage .secleft img,
   .fp-viewing-thirdPage .thright img,
   .fp-viewing-endPage .enleft img {
     width: 100%;
-    height: 100%;
+    height: 50vh;
   }
 
   .fp-viewing-thirdPage .thright,
   .thleft {
     width: 100%;
-    height: 50%;
+    height: 50vh;
   }
 
   .fp-viewing-endPage .enleft,
   .enright {
     width: 100%;
-    height: 50%;
+    height: 50vh;
   }
 
   .notice {
-    height: 88%;
+    height: 88vh;
   }
 
   .noticeleft,
   .noticeright {
     width: 100%;
-    height: 50%;
+    height: 50vh;
   }
 
   .noticedown {
     width: 100%;
-    height: 12%;
+    height: 12vh;
     font-size: 4rem;
     padding-top: 9px;
   }
 
   .letter {
     width: 80%;
-    height: 100%;
+    font-size: 3.5rem;
     top: 10%;
   }
 
@@ -1458,7 +1458,7 @@ input:hover {
   }
 
   button {
-    padding: 20px 40px;
+    padding: 15px 25px;
   }
 
   .fp-viewing-secondPage .green,
@@ -1601,3 +1601,4 @@ Small phone
     top: 5.5rem;
   }
 }
+
