@@ -1385,12 +1385,10 @@ input:hover {
     display: block;
   }
 
-  .fp-viewing-secondPage .secleft,
-  .secright {
-    width: 100%;
-    height: 40%;
-  }
-  fp-viewing-secondPage .secright {
+  
+  .fp-viewing-secondPage .secright,
+  .fp-viewing-thirdPage .thleft,
+  .fp-viewing-endPage .enright{
     width: 100%;
     height: 60%;
   }
@@ -1402,23 +1400,13 @@ input:hover {
     height: 40vh;
   }
 
-  .fp-viewing-thirdPage .thright{
+  .fp-viewing-secondPage .secleft,
+  .fp-viewing-thirdPage .thright,
+  .fp-viewing-endPage .enleft {
     width: 100%;
     height: 40%;
   }
   
-  .fp-viewing-thirdPage .thleft {
-    width: 100%;
-    height: 60%;
-  }
-
-
-  .fp-viewing-endPage .enleft,
-  .enright {
-    width: 100%;
-    height: 50%;
-  }
-
   .notice {
     height: 88%;
   }
