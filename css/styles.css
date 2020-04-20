@@ -1432,6 +1432,10 @@ input:hover {
     font-size: 3.5rem;
     top: 10%;
   }
+  
+  .Xsmall {
+    margin-top: 10px;
+  }
 
   .address {
     width: 80%;
