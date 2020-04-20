@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 html {
@@ -17,7 +16,7 @@ body {
 
 /*navigation dots*/
 .fp-viewing-firstPage #fp-nav,
-.fp-viewing-noticePage #fp-nav{
+.fp-viewing-noticePage #fp-nav {
   display: none;
 }
 
@@ -1349,6 +1348,7 @@ input:hover {
   .modal_main h1 {
     padding-top: 1.5rem;
   }
+
   .wrapper p {
     font-size: 3rem;
   }
@@ -1387,41 +1387,41 @@ input:hover {
   .fp-viewing-secondPage .secleft,
   .secright {
     width: 100%;
-    height: 50vh;
+    height: 50%;
   }
 
   .fp-viewing-secondPage .secleft img,
   .fp-viewing-thirdPage .thright img,
   .fp-viewing-endPage .enleft img {
     width: 100%;
-    height: 50vh;
+    height: 50%;
   }
 
   .fp-viewing-thirdPage .thright,
   .thleft {
     width: 100%;
-    height: 50vh;
+    height: 50%;
   }
 
   .fp-viewing-endPage .enleft,
   .enright {
     width: 100%;
-    height: 50vh;
+    height: 50%;
   }
 
   .notice {
-    height: 88vh;
+    height: 88%;
   }
 
   .noticeleft,
   .noticeright {
     width: 100%;
-    height: 50vh;
+    height: 50%;
   }
 
   .noticedown {
     width: 100%;
-    height: 12vh;
+    height: 12%;
     font-size: 4rem;
     padding-top: 9px;
   }
@@ -1501,18 +1501,19 @@ input:hover {
   .modal_main p {
     padding: 5px 0 0;
   }
-  
- .modal_main h1 {
+
+  .modal_main h1 {
     font-size: 3rem;
     padding-top: 0;
   }
-   .modal_main {
+
+  .modal_main {
     height: 95%;
   }
-  
+
   .modal_main02 h1 {
     font-size: 3rem;
-    letter-spacing:-.1rem;
+    letter-spacing: -.1rem;
   }
 
   .modal_main02_letter {
@@ -1527,8 +1528,8 @@ input:hover {
     transform: rotate(-30deg);
     top: 50px;
   }
-  
-  
+
+
 
   /*
 //////////////////////
@@ -1584,7 +1585,7 @@ Small phone
     margin-top: 0.5rem;
   }
 
- 
+
   h2 {
     font-size: 15px;
   }
@@ -1601,4 +1602,3 @@ Small phone
     top: 5.5rem;
   }
 }
-
