@@ -1292,7 +1292,7 @@ input:hover {
   }
 
   #submit {
-    height: 18.1%;
+    height: 18.2%;
     width: 12%;
   }
 
@@ -1444,6 +1444,10 @@ input:hover {
   .noticeright_wrap {
     width: 100%;
     top: 20px;
+  }
+
+  .noticeright input[type='text'] {
+  width: calc(100% - 40%);
   }
 
   #submit:hover:after {
