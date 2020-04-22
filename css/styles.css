@@ -1411,10 +1411,15 @@ input:hover {
     padding-top: 9px;
   }
 
-  .letter {
+  .thleft .letter {
     width: 80%;
     font-size: 3.5rem;
     top: 15%;
+  }
+  
+  .secright .letter,
+  .enright .letter{
+    top:10%;
   }
 
   .Xsmall {
