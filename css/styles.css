@@ -1033,8 +1033,8 @@ form textarea {
   -webkit-appearance: none;
 }
 
-.modal_main>form textarea:hover,
-input:hover {
+form textarea:hover,
+form input:hover{
   box-shadow: inset 0 0 3px 3px rgba(66, 4, 4, 0.6);
   outline: none;
 }
