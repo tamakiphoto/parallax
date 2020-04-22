@@ -1373,10 +1373,13 @@ form input:hover{
     font-size: 2rem;
     margin-left: -5rem;
   }
+  
+  .fp-viewing-firstPage .mask{
+  top:32%;
+  }
 
   .mask {
     left: -7%;
-    top:32%;
   }
 
   .second,
