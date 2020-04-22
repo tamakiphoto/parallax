@@ -1414,7 +1414,7 @@ input:hover {
   .letter {
     width: 80%;
     font-size: 3.5rem;
-    top: 10%;
+    top: 20%;
   }
 
   .Xsmall {
@@ -1447,7 +1447,7 @@ input:hover {
   }
 
   button {
-    padding: 15px 25px;
+    padding: 20px 25px;
   }
 
   .fp-viewing-secondPage .green,
